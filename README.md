@@ -1,5 +1,6 @@
 # PruebaNewshore
 
+On this page, class modeling (UML design) was carried out, proposed by the company flyrlabs, with the consumption of the api (https://recruiting-api.newshore.es/api/flights) for the use of its data, along with the implementation of CSS for web design.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
 
 ## Development server
