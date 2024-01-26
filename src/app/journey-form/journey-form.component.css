@@ -1,0 +1,16 @@
+.form__container{
+    position: absolute;
+    top: 22px;
+    left: 17px;
+}
+
+.form__button{
+    margin-left: 8px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label{
+    margin-left: 10px;
+    padding-right: 4px;
+}

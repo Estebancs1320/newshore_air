@@ -1,0 +1,15 @@
+<!-- journey-form.component.html -->
+<div class="form__container">
+
+  <form (ngSubmit)="onSubmit()">
+    <label for="origin">Origin:</label>
+    <input id="origin" name="origin" [(ngModel)]="origin" maxlength="3" (input)="onInput($event)">
+  
+    <label for="destination">Destination:</label>
+    <input id="destination" name="destination" [(ngModel)]="destination" maxlength="3" (input)="onInput($event)">
+  
+    <button class="form__button"  type="submit" [disabled]="!isValidForm()">Get Route</button>
+  </form>
+
+
+</div>

@@ -1,0 +1,18 @@
+
+  <div class="lista__contenedor" *ngIf="flights.length > 0">
+      <h2 class="lista__titulo">List of Flights</h2>
+      <ul>
+        <li *ngFor="let flight of flights">
+          {{ flight.departureStation }} to {{ flight.arrivalStation }} - ${{ flight.price }}
+        </li>
+      </ul>
+    </div>
+    
+    <div>
+      <button class="currency__exchange">Currency exchange</button>
+    </div>
+
+    <div *ngIf="flights.length === 0">
+      <p>No flights available.</p>
+    </div>
+    

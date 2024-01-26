@@ -1,0 +1,30 @@
+.lista__contenedor{
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    padding: 10px 65px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    word-spacing: 60px;
+    text-align: center;
+}
+
+.lista__titulo{
+    color: rgba(0, 0, 0, 0.641);
+    
+}
+
+.currency__exchange{
+    position: absolute;
+    top: 74%;
+    left: 17%;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 200px;
+    background-color: #1e1c92;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.titulo_principal{
+    font-size: 108px;
+    text-align: center; 
+    margin-top: -92px;
+}
+
+.titulo_secundario{
+    font-size: 72px;
+    text-align: end;
+}
+
+.titulo_contenedor{
+    margin: 40px 0;
+    width: 280px;
+    text-align: center;
+    color: #1e1c92;
+    position: absolute;
+    right: 13%;
+    top: 13%;
+}
+
+.titulo__wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 260px;
+    background-image: url("./wave.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
